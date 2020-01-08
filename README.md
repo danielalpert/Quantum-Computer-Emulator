@@ -11,5 +11,8 @@ Features:
 Quantum Gates included:
 1. Rotation of a single qubit on the [Bloch Sphere](https://en.wikipedia.org/wiki/Bloch_sphere) (Rx, Ry, Rx), by an angle given by parameters
 2. [Haddamard transform](https://en.wikipedia.org/wiki/Quantum_logic_gate#Hadamard_(H)_gate) of a single qubit(H)
-3. Phase shift gates, by an angle given by parameters (Ph), or by a fixed angle of &#177;&pi;/4 (T, Tdag)
+3. Phase shift gates, by an angle given by parameters (Ph), or by a fixed angle of (&#177;&pi;/4) (T, Tdag)
 4. [Controlled NOT gate](https://en.wikipedia.org/wiki/Controlled_NOT_gate) (CNOT), similarly Controlled Hadamard gate (CH)
+
+
+This is a very rough version of a project I hope to extend soon. Some changes I hope to make in the future include the seperation of the emulator into different processes (a process applying only the basic instructions to a registry, and a seperate process allowing for user defined gates which would be the command line interface), the removal of features I included to help me develop the project (e.g. echoing each new gate defined), and a graphical interface using the graphical model of a [quantum circuit](https://en.wikipedia.org/wiki/Quantum_circuit).
