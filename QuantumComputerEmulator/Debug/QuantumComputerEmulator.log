@@ -1,0 +1,13 @@
+﻿  gates.cpp
+C:\Users\Daniel\source\repos\QuantumComputerEmulator\gates.cpp(32,20): warning C4018: '<': signed/unsigned mismatch
+  myqasm_interpreter.cpp
+C:\Users\Daniel\source\repos\QuantumComputerEmulator\gates.cpp(34,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Daniel\source\repos\QuantumComputerEmulator\myqasm_interpreter.cpp(23,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Daniel\source\repos\QuantumComputerEmulator\myqasm_interpreter.cpp(257,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Daniel\source\repos\QuantumComputerEmulator\myqasm_interpreter.cpp(325,20): warning C4018: '<': signed/unsigned mismatch
+  quantum.cpp
+  testing.cpp
+C:\Users\Daniel\source\repos\QuantumComputerEmulator\myqasm_interpreter.cpp(393,21): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+C:\Users\Daniel\source\repos\QuantumComputerEmulator\testing.cpp(29,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  QuantumComputerEmulator.vcxproj -> C:\Users\Daniel\source\repos\QuantumComputerEmulator\Debug\QuantumComputerEmulator.exe

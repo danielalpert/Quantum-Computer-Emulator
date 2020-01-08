@@ -1,0 +1,20 @@
+include mygates.txt
+
+gate oracle a b c d aux {
+CCCNOT a b c d aux
+NOT a
+CCCNOT a b c d aux
+NOT a
+NOT b
+CCCNOT a b c d aux
+NOT a
+NOT c
+CCCNOT a b c d aux
+NOT a
+NOT b
+NOT c
+}
+
+gate oracleconst a b c d aux {
+NOT d
+}

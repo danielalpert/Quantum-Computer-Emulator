@@ -1,0 +1,18 @@
+qubits 5
+
+include oracle.txt
+
+NOT 3
+
+H 0
+H 1
+H 2
+H 3
+
+oracle 0 1 2 3 4
+
+H 0
+H 1
+H 2
+
+measure

@@ -1,0 +1,19 @@
+
+
+gate CCNOT a b c {
+H c
+CNOT b c
+Tdag c
+CNOT a c
+T c
+CNOT b c
+Tdag c
+CNOT a c
+T c
+H c
+T b
+CNOT a b
+T a
+Tdag b
+CNOT a b
+}
